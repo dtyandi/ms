@@ -1,0 +1,66 @@
+WSA:
+IP Fisik Server A	192.168.193.178	
+IP Fisik Server B	192.168.193.179	
+IP VM Server A		
+IP VM Server B		
+IP AES			192.168.193.181	KP2AESVR01
+IP WebLM		192.168.193.180	
+
+
+IP Fisik Server A	192.168.193.107	
+IP Fisik Server B	192.168.193.110	
+IP VM Server A	192.168.193.104	
+IP VM Server B	192.168.193.109	
+IP AES Verint		192.168.193.105	KP2WSAAES04
+IP AES IC		192.168.193.106	KP2WSAAES05
+IP WebLM		192.168.193.114	KP2AESWSA01
+
+BSD:
+IP Fisik Server A	192.168.255.107	
+IP Fisik Server B	192.168.255.110	
+IP VM Server A	192.168.255.104	
+IP VM Server B	192.168.255.109	
+IP AES Verint		192.168.255.105	CBSDAES04
+IP AES IC		192.168.255.106	CBSDAES05
+IP WebLM		192.168.255.114	
+
+HSB:
+VM			192.168.252.15 - box 1
+VM			192.168.252.16 - box 2
+Virtual access		192.168.252. 19
+VM1			192.168.252. 17
+VM			192.168.252. 18
+
+Jakarta:
+Web	
+cust/custpw
+
+CLI	
+cust/custpw
+root/root01
+
+WebLM
+admin/admin01
+
+
+HSB Semarang:
+VMware
+root/bcabca123!
+
+Web & CLI
+cust/cust1234
+
+CLI root/Avaya123$
+
+AES GRHA	KP3AVAYAAES01	192.168.43.126	
+active ip : 192.168.43.137
+KP3AVAYAAES02	192.168.43.127
+
+Web
+cust/cust1234
+CLI
+cust/cust1234
+root/Avaya123$
+
+AVAYA#CM8SBY#CSTA#KP3AVAYAAES01
+ctiuser/Ctiuser123!
